@@ -11,6 +11,7 @@ I plan to do frontend development professionally.
     + Grid
     + Flex
 * Git
+
 ## Code Example
 ```
 <section class="promo">

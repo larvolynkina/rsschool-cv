@@ -4,6 +4,7 @@
 * **E-mail:** volynkinala@gmail.com
 * **GitHub:** larvolynkina 
 
+
 ## About myself
 I plan to do frontend development professionally.
 
@@ -35,6 +36,7 @@ My work experience is not related to frontend development yet.
 ## Education
 * **University:** Saratov State University, diploma of a specialist in political science, 2008.
 * **Courses:** Web developer course by Anton Petrechenko, 2021.
+
 
 ## English
 INTERMEDIATE (B1)

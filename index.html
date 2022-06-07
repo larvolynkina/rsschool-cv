@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>My First Document</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav container">
+            <ul class="nav-list">
+                <li><a href="#promo">Contacts</a></li>
+                <li><a href="#about">About myself</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code-example">Code Example</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#projects">Study Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="promo" class="promo">
+            <div class="promo-wrapper container">
+                <div class="promo-text">
+                    <h1>Larisa Volynkina</h1>
+                    <p class="post">RSSchool student</p>
+                        <ul class="contacts-list">
+                            <li>Location: <br><span>Saratov, Russia</span></li>
+                            <li><a href="mailto:volynkinala@gmail.com">E-mail: <br><span>volynkinala@gmail.com</span></a></li>
+                            <li><a href="https://github.com/larvolynkina">GitHub: <br><span>larvolynkina</span></a></li>
+                        </ul>
+                </div>
+                <div class="promo-img">
+                    <div class="promo-img-bg"></div>
+                    <div class="promo-img-photo">
+                        <img src="img/avatar.jpg" width="390" height="390" alt="place-for-photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="main-wrapper container">
+            <div class="left-column">
+                <section id="about" class="about">
+                    <h2>About myself</h2>
+                    <p class="left-column-text">I plan to do frontend development professionally.</p>
+                </section>
+                <section id="experience" class="experience">
+                    <h2>Experience</h2>
+                    <p class="left-column-text">My work experience is not related to frontend development yet.</p>
+                </section>
+                <section id="languages" class="languages">
+                    <h2>Languages</h2>
+                    <p class="left-column-text">English &mdash; INTERMEDIATE (B1)</p>
+                </section>
+                <div class="main-bg"></div>
+            </div>
+            <div class="right-column">
+                <section id="education" class="education">
+                    <h2>Education</h2>
+                    <dl class="education-list">
+                        <dt class="education-list-term">University:</dt>
+                        <dd class="education-list-descr">Saratov State University, diploma of a specialist in political science, 2008.</dd>
+                        <dt class="education-list-term">Courses:</dt>
+                        <dd class="education-list-descr">Web developer course by Ivan Petrechenko, 2021.</dd>
+                    </dl>
+                </section>
+                <section id="skills" class="skills">
+                    <h2>Skills</h2>
+                    <ul class="skills-list">
+                        <li class="skills-list-item">Html5</li>
+                        <li class="skills-list-item">Css
+                            <ul class="css-list">
+                                <li>Grid</li>
+                                <li>Flex</li>
+                            </ul>
+                        </li>
+                        <li class="skills-list-item">Git</li>
+                    </ul>
+                </section>
+                <section id="projects" class="projects">
+                    <h2>Study Projects</h2>
+                    <p class="project-text">Верстка лэндинга:</p>
+                    <a class="project-link" href="https://larvolynkina.github.io/">https://larvolynkina.github.io</a>
+                </section>
+                <section id="code-example" class="code-example">
+                    <h2>Code Example</h2>
+                    <pre><code>
+&lt;section class="promo"&gt;
+    &lt;div class="promo-wrapper container"&gt;
+        &lt;div class="promo-text"&gt;
+            &lt;h2&gt;&lt;span&gt; class="promo-header-span"&gt;
+            Весна/Лето 2019&lt;/span&gt; Коллекция&lt;/h2&gt;
+            &lt;p>Швейцарские часы в наличии в Москве и с 
+            доставкой по всему миру&lt;/p&gt;
+            &lt;a href="catalog.html"&gt;Смотреть каталог&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="promo-img"&gt;
+        &lt;img src="img/watch_main.png" 
+        width="506" height="806" alt="watch_main"&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+                    </code></pre>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul class="footer-links container">
+            <li><a href="https://github.com/larvolynkina">GitHub: larvolynkina</a></li>
+            <li><a href="https://rs.school/js/"><img src="img/rs_school_js.svg" width="61" height="22" alt="logo"></a></li>
+            <li>2022</li>
+        </ul>
+    </footer>
+</body>
+</html>

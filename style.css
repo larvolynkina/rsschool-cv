@@ -40,6 +40,7 @@ a {
 
 .nav-list {
   display: flex;
+  position: relative;
   justify-content: space-between;
   color: #ffffff;
   padding: 20px 0;
@@ -145,7 +146,7 @@ a {
   top: 0px;
   left: 0px;
   width: 390px;
-  height: 880px;
+  height: 1033px;
   background-color: #161b25;
   opacity: 0.1;
   z-index: 1;
@@ -193,6 +194,10 @@ h2 {
   margin-bottom: 50px;
 }
 
+.projects {
+  margin-bottom: 50px;
+}
+
 .skills-list {
   margin-left: 18px;
   list-style: circle;
@@ -211,6 +216,8 @@ h2 {
 .footer-links {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  z-index: 3;
 }
 
 footer {
@@ -222,4 +229,16 @@ footer {
 .footer-links li {
   padding: 20px 50px;
   color: #ffffff;
+}
+
+.project-text {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.project-link {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 200;
 }

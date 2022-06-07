@@ -16,8 +16,8 @@
             <ul class="nav-list">
                 <li><a href="#">Contacts</a></li>
                 <li><a href="#">About myself</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Code Example</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code-example">Code Example</a></li>
                 <li><a href="#">Experience</a></li>
                 <li><a href="#">Education</a></li>
                 <li><a href="#">Languages</a></li>
@@ -30,14 +30,11 @@
                 <div class="promo-text">
                     <h1>Larisa Volynkina</h1>
                     <p class="post">RSSchool student</p>
-                        <dl class="contacts-list">
-                            <dt>Location:</dt>
-                            <dd>Saratov, Russia</dd>
-                            <dt>E-mail:</dt>
-                            <dd>volynkinala@gmail.com</dd>
-                            <dt>GitHub:</dt>
-                            <dd>larvolynkina</dd>
-                        </dl>
+                        <ul class="contacts-list">
+                            <li>Location: <br><span>Saratov, Russia</span></li>
+                            <li>E-mail: <br><span>volynkinala@gmail.com</span></li>
+                            <li>GitHub: <br><span>larvolynkina</span></li>
+                        </ul>
                 </div>
                 <div class="promo-img">
                     <div class="promo-img-bg"></div>
@@ -47,6 +44,75 @@
                 </div>
             </div>
         </section>
+        <div class="main-wrapper container">
+            <div class="left-column">
+                <section class="about">
+                    <h2>About myself</h2>
+                    <p class="left-column-text">I plan to do frontend development professionally.</p>
+                </section>
+                <section class="experience">
+                    <h2>Experience</h2>
+                    <p class="left-column-text">My work experience is not related to frontend development yet.</p>
+                </section>
+                <section class="languages">
+                    <h2>Languages</h2>
+                    <p class="left-column-text">English &mdash; INTERMEDIATE (B1)</p>
+                </section>
+                <div class="main-bg"></div>
+            </div>
+            <div class="right-column">
+                <section class="education">
+                    <h2>Education</h2>
+                    <dl class="education-list">
+                        <dt class="education-list-term">University:</dt>
+                        <dd class="education-list-descr">Saratov State University, diploma of a specialist in political science, 2008.</dd>
+                        <dt class="education-list-term">Courses:</dt>
+                        <dd class="education-list-descr">Web developer course by Ivan Petrechenko, 2021.</dd>
+                    </dl>
+                </section>
+                <section id="skills" class="skills">
+                    <h2>Skills</h2>
+                    <ul class="skills-list">
+                        <li class="skills-list-item">Html5</li>
+                        <li class="skills-list-item">Css
+                            <ul class="css-list"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                c>
+                                <li>Grid</li>
+                                <li>Flex</li>
+                            </ul>
+                        </li>
+                        <li class="skills-list-item">Git</li>
+                    </ul>
+
+                </section>
+                <section id="code-example" class="code-example">
+                    <h2>Code Example</h2>
+                    <code><pre>
+&lt;section class="promo"&gt;
+    &lt;div class="promo-wrapper container"&gt;
+        &lt;div class="promo-text"&gt;
+            &lt;h2&gt;&lt;span&gt; class="promo-header-span"&gt;
+            Весна/Лето 2019&lt;/span&gt; Коллекция&lt;/h2&gt;
+            &lt;p>Швейцарские часы в наличии в Москве и с 
+            доставкой по всему миру&lt;/p&gt;
+            &lt;a href="catalog.html"&gt;Смотреть каталог&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="promo-img"&gt;
+        &lt;img src="img/watch_main.png" 
+        width="506" height="806" alt="watch_main"&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+                    </pre></code>
+                </section>
+            </div>
+        </div>
     </main>
+    <footer>
+        <ul class="footer-links container">
+            <li><a href="https://github.com/larvolynkina">GitHub: larvolynkina</a></li>
+            <li><a href="https://rs.school/js/"><img src="img/rs_school_js.svg" width="61" height="22" alt="logo"></a></li>
+            <li>2022</li>
+        </ul>
+    </footer>
 </body>
 </html>

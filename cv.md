@@ -35,7 +35,7 @@ My work experience is not related to frontend development yet.
 
 ## Education
 * **University:** Saratov State University, diploma of a specialist in political science, 2008.
-* **Courses:** Web developer course by Anton Petrechenko, 2021.
+* **Courses:** Web developer course by Ivan Petrechenko, 2021.
 
 
 ## English
